@@ -15,10 +15,12 @@ struct ContentView: View {
                 Text("Hello, world!").padding(.top)
                 Spacer()
                 NavigationLink(destination: SPPEntryPointView()) {
+                    Image("Sort")
                     Text("SPPEntryPoint")
                 }
                 Spacer()
                 NavigationLink(destination: SPPEntryPointView()) {
+                    Image("filter")
                     Text("SPPEntryPoint")
                 }
                 Spacer()

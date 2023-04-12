@@ -19,11 +19,11 @@ public struct SPPEntryPointView: View {
                 Text("Location")
             }
             HStack {
-                Image("mapPin")
+                Image("Sort")
                 Text("Sort")
             }
             HStack {
-                Image("mapPin")
+                Image("filter")
                 Text("Filter")
             }
         }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43763A829E6F20500A8F4C2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43E9F1329DF16C900FAF140 /* Media.xcassets */; };
 		F43E9EDC29DEFF3D00FAF140 /* framework_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E9EDB29DEFF3D00FAF140 /* framework_appApp.swift */; };
 		F43E9EDE29DEFF3D00FAF140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43E9EDD29DEFF3D00FAF140 /* ContentView.swift */; };
 		F43E9EE029DEFF3F00FAF140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43E9EDF29DEFF3F00FAF140 /* Assets.xcassets */; };
@@ -115,20 +116,12 @@
 		F43E9F0029DF0C7100FAF140 /* app-framework */ = {
 			isa = PBXGroup;
 			children = (
-				F43E9F1229DF16B400FAF140 /* Assets */,
 				F43E9F0129DF0C7100FAF140 /* app_framework.h */,
 				F43E9F0229DF0C7100FAF140 /* app_framework.docc */,
 				F43E9F0C29DF0D0400FAF140 /* SPPEntryPointView.swift */,
-			);
-			path = "app-framework";
-			sourceTree = "<group>";
-		};
-		F43E9F1229DF16B400FAF140 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
 				F43E9F1329DF16C900FAF140 /* Media.xcassets */,
 			);
-			path = Assets;
+			path = "app-framework";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43763A829E6F20500A8F4C2 /* Media.xcassets in Resources */,
 				F43E9EE329DEFF3F00FAF140 /* Preview Assets.xcassets in Resources */,
 				F43E9EE029DEFF3F00FAF140 /* Assets.xcassets in Resources */,
 			);
