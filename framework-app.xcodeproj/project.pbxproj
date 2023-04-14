@@ -20,6 +20,27 @@
 		F47F2B8E29E83E26009E517A /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F2B8D29E83E26009E517A /* ContentViewModel.swift */; };
 		F47F2B9229E94E27009E517A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43E9F1329DF16C900FAF140 /* Media.xcassets */; };
 		F47F2B9629E95858009E517A /* Directions.json in Resources */ = {isa = PBXBuildFile; fileRef = F47F2B9329E94EC7009E517A /* Directions.json */; };
+		F4B6AFA129E99B4B00225289 /* leadPlusApp_framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = F4B6AFA029E99B4B00225289 /* leadPlusApp_framework.docc */; };
+		F4B6AFA229E99B4B00225289 /* leadPlusApp_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B6AF9F29E99B4B00225289 /* leadPlusApp_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B6AFA529E99B4B00225289 /* leadPlusApp_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B6AF9D29E99B4B00225289 /* leadPlusApp_framework.framework */; };
+		F4B6AFA629E99B4B00225289 /* leadPlusApp_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4B6AF9D29E99B4B00225289 /* leadPlusApp_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4B6AFAB29E99B7C00225289 /* LeadPlusEntryPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6AFAA29E99B7C00225289 /* LeadPlusEntryPointView.swift */; };
+		F4B6AFB529E99F9C00225289 /* secondApp_framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = F4B6AFB429E99F9C00225289 /* secondApp_framework.docc */; };
+		F4B6AFB629E99F9C00225289 /* secondApp_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B6AFB329E99F9C00225289 /* secondApp_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B6AFB929E99F9C00225289 /* secondApp_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B6AFB129E99F9C00225289 /* secondApp_framework.framework */; };
+		F4B6AFBA29E99F9C00225289 /* secondApp_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4B6AFB129E99F9C00225289 /* secondApp_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4B6AFBF29E99FC600225289 /* SecondAppEntryPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6AFBE29E99FC600225289 /* SecondAppEntryPointView.swift */; };
+		F4B6AFC929E9A32F00225289 /* thirdApp_framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = F4B6AFC829E9A32F00225289 /* thirdApp_framework.docc */; };
+		F4B6AFCA29E9A32F00225289 /* thirdApp_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B6AFC729E9A32F00225289 /* thirdApp_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B6AFCD29E9A32F00225289 /* thirdApp_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B6AFC529E9A32F00225289 /* thirdApp_framework.framework */; };
+		F4B6AFCE29E9A32F00225289 /* thirdApp_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F4B6AFC529E9A32F00225289 /* thirdApp_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4B6AFD329E9A35700225289 /* ThirdAppEntryPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6AFD229E9A35700225289 /* ThirdAppEntryPointView.swift */; };
+		F4B6AFD529E9AA2900225289 /* LeadPlusMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B6AFD429E9AA2900225289 /* LeadPlusMedia.xcassets */; };
+		F4B6AFD629E9AA6C00225289 /* LeadPlusMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B6AFD429E9AA2900225289 /* LeadPlusMedia.xcassets */; };
+		F4B6AFD829E9AAC300225289 /* SecondAppMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B6AFD729E9AAC300225289 /* SecondAppMedia.xcassets */; };
+		F4B6AFD929E9ACE100225289 /* SecondAppMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B6AFD729E9AAC300225289 /* SecondAppMedia.xcassets */; };
+		F4B6AFDB29E9AD0800225289 /* ThirdAppMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B6AFDA29E9AD0800225289 /* ThirdAppMedia.xcassets */; };
+		F4B6AFDC29E9AD3300225289 /* ThirdAppMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B6AFDA29E9AD0800225289 /* ThirdAppMedia.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +51,27 @@
 			remoteGlobalIDString = F43E9EFE29DF0C7100FAF140;
 			remoteInfo = "app-framework";
 		};
+		F4B6AFA329E99B4B00225289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43E9ED029DEFF3D00FAF140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B6AF9C29E99B4B00225289;
+			remoteInfo = "leadPlusApp-framework";
+		};
+		F4B6AFB729E99F9C00225289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43E9ED029DEFF3D00FAF140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B6AFB029E99F9C00225289;
+			remoteInfo = "secondApp-framework";
+		};
+		F4B6AFCB29E9A32F00225289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43E9ED029DEFF3D00FAF140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B6AFC429E9A32F00225289;
+			remoteInfo = "thirdApp-framework";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,7 +81,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F4B6AFBA29E99F9C00225289 /* secondApp_framework.framework in Embed Frameworks */,
+				F4B6AFCE29E9A32F00225289 /* thirdApp_framework.framework in Embed Frameworks */,
 				F43E9F0829DF0C7100FAF140 /* app_framework.framework in Embed Frameworks */,
+				F4B6AFA629E99B4B00225289 /* leadPlusApp_framework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +106,21 @@
 		F47F2B8D29E83E26009E517A /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		F47F2B8F29E94B38009E517A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F47F2B9329E94EC7009E517A /* Directions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Directions.json; sourceTree = "<group>"; };
+		F4B6AF9D29E99B4B00225289 /* leadPlusApp_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = leadPlusApp_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B6AF9F29E99B4B00225289 /* leadPlusApp_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leadPlusApp_framework.h; sourceTree = "<group>"; };
+		F4B6AFA029E99B4B00225289 /* leadPlusApp_framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = leadPlusApp_framework.docc; sourceTree = "<group>"; };
+		F4B6AFAA29E99B7C00225289 /* LeadPlusEntryPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadPlusEntryPointView.swift; sourceTree = "<group>"; };
+		F4B6AFB129E99F9C00225289 /* secondApp_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = secondApp_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B6AFB329E99F9C00225289 /* secondApp_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondApp_framework.h; sourceTree = "<group>"; };
+		F4B6AFB429E99F9C00225289 /* secondApp_framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = secondApp_framework.docc; sourceTree = "<group>"; };
+		F4B6AFBE29E99FC600225289 /* SecondAppEntryPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAppEntryPointView.swift; sourceTree = "<group>"; };
+		F4B6AFC529E9A32F00225289 /* thirdApp_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = thirdApp_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B6AFC729E9A32F00225289 /* thirdApp_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thirdApp_framework.h; sourceTree = "<group>"; };
+		F4B6AFC829E9A32F00225289 /* thirdApp_framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = thirdApp_framework.docc; sourceTree = "<group>"; };
+		F4B6AFD229E9A35700225289 /* ThirdAppEntryPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdAppEntryPointView.swift; sourceTree = "<group>"; };
+		F4B6AFD429E9AA2900225289 /* LeadPlusMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LeadPlusMedia.xcassets; sourceTree = "<group>"; };
+		F4B6AFD729E9AAC300225289 /* SecondAppMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SecondAppMedia.xcassets; sourceTree = "<group>"; };
+		F4B6AFDA29E9AD0800225289 /* ThirdAppMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ThirdAppMedia.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +128,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B6AFB929E99F9C00225289 /* secondApp_framework.framework in Frameworks */,
+				F4B6AFCD29E9A32F00225289 /* thirdApp_framework.framework in Frameworks */,
 				F43E9F0729DF0C7100FAF140 /* app_framework.framework in Frameworks */,
+				F4B6AFA529E99B4B00225289 /* leadPlusApp_framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F43E9EFC29DF0C7100FAF140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AF9A29E99B4B00225289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AFAE29E99F9C00225289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AFC229E9A32F00225289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,6 +171,9 @@
 			children = (
 				F43E9EDA29DEFF3D00FAF140 /* framework-app */,
 				F43E9F0029DF0C7100FAF140 /* app-framework */,
+				F4B6AF9E29E99B4B00225289 /* leadPlusApp-framework */,
+				F4B6AFB229E99F9C00225289 /* secondApp-framework */,
+				F4B6AFC629E9A32F00225289 /* thirdApp-framework */,
 				F43E9ED929DEFF3D00FAF140 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +183,9 @@
 			children = (
 				F43E9ED829DEFF3D00FAF140 /* framework-app.app */,
 				F43E9EFF29DF0C7100FAF140 /* app_framework.framework */,
+				F4B6AF9D29E99B4B00225289 /* leadPlusApp_framework.framework */,
+				F4B6AFB129E99F9C00225289 /* secondApp_framework.framework */,
+				F4B6AFC529E9A32F00225289 /* thirdApp_framework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +224,39 @@
 			path = "app-framework";
 			sourceTree = "<group>";
 		};
+		F4B6AF9E29E99B4B00225289 /* leadPlusApp-framework */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6AF9F29E99B4B00225289 /* leadPlusApp_framework.h */,
+				F4B6AFA029E99B4B00225289 /* leadPlusApp_framework.docc */,
+				F4B6AFAA29E99B7C00225289 /* LeadPlusEntryPointView.swift */,
+				F4B6AFD429E9AA2900225289 /* LeadPlusMedia.xcassets */,
+			);
+			path = "leadPlusApp-framework";
+			sourceTree = "<group>";
+		};
+		F4B6AFB229E99F9C00225289 /* secondApp-framework */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6AFB329E99F9C00225289 /* secondApp_framework.h */,
+				F4B6AFB429E99F9C00225289 /* secondApp_framework.docc */,
+				F4B6AFBE29E99FC600225289 /* SecondAppEntryPointView.swift */,
+				F4B6AFD729E9AAC300225289 /* SecondAppMedia.xcassets */,
+			);
+			path = "secondApp-framework";
+			sourceTree = "<group>";
+		};
+		F4B6AFC629E9A32F00225289 /* thirdApp-framework */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6AFC729E9A32F00225289 /* thirdApp_framework.h */,
+				F4B6AFC829E9A32F00225289 /* thirdApp_framework.docc */,
+				F4B6AFD229E9A35700225289 /* ThirdAppEntryPointView.swift */,
+				F4B6AFDA29E9AD0800225289 /* ThirdAppMedia.xcassets */,
+			);
+			path = "thirdApp-framework";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -142,6 +265,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43E9F0429DF0C7100FAF140 /* app_framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AF9829E99B4B00225289 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFA229E99B4B00225289 /* leadPlusApp_framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AFAC29E99F9C00225289 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFB629E99F9C00225289 /* secondApp_framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AFC029E9A32F00225289 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFCA29E9A32F00225289 /* thirdApp_framework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +308,9 @@
 			);
 			dependencies = (
 				F43E9F0629DF0C7100FAF140 /* PBXTargetDependency */,
+				F4B6AFA429E99B4B00225289 /* PBXTargetDependency */,
+				F4B6AFB829E99F9C00225289 /* PBXTargetDependency */,
+				F4B6AFCC29E9A32F00225289 /* PBXTargetDependency */,
 			);
 			name = "framework-app";
 			productName = "framework-app";
@@ -185,6 +335,60 @@
 			productReference = F43E9EFF29DF0C7100FAF140 /* app_framework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F4B6AF9C29E99B4B00225289 /* leadPlusApp-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B6AFA929E99B4B00225289 /* Build configuration list for PBXNativeTarget "leadPlusApp-framework" */;
+			buildPhases = (
+				F4B6AF9829E99B4B00225289 /* Headers */,
+				F4B6AF9929E99B4B00225289 /* Sources */,
+				F4B6AF9A29E99B4B00225289 /* Frameworks */,
+				F4B6AF9B29E99B4B00225289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leadPlusApp-framework";
+			productName = "leadPlusApp-framework";
+			productReference = F4B6AF9D29E99B4B00225289 /* leadPlusApp_framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4B6AFB029E99F9C00225289 /* secondApp-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B6AFBB29E99F9D00225289 /* Build configuration list for PBXNativeTarget "secondApp-framework" */;
+			buildPhases = (
+				F4B6AFAC29E99F9C00225289 /* Headers */,
+				F4B6AFAD29E99F9C00225289 /* Sources */,
+				F4B6AFAE29E99F9C00225289 /* Frameworks */,
+				F4B6AFAF29E99F9C00225289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "secondApp-framework";
+			productName = "secondApp-framework";
+			productReference = F4B6AFB129E99F9C00225289 /* secondApp_framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4B6AFC429E9A32F00225289 /* thirdApp-framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B6AFCF29E9A32F00225289 /* Build configuration list for PBXNativeTarget "thirdApp-framework" */;
+			buildPhases = (
+				F4B6AFC029E9A32F00225289 /* Headers */,
+				F4B6AFC129E9A32F00225289 /* Sources */,
+				F4B6AFC229E9A32F00225289 /* Frameworks */,
+				F4B6AFC329E9A32F00225289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "thirdApp-framework";
+			productName = "thirdApp-framework";
+			productReference = F4B6AFC529E9A32F00225289 /* thirdApp_framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,6 +403,15 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					F43E9EFE29DF0C7100FAF140 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F4B6AF9C29E99B4B00225289 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F4B6AFB029E99F9C00225289 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F4B6AFC429E9A32F00225289 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -218,6 +431,9 @@
 			targets = (
 				F43E9ED729DEFF3D00FAF140 /* framework-app */,
 				F43E9EFE29DF0C7100FAF140 /* app-framework */,
+				F4B6AF9C29E99B4B00225289 /* leadPlusApp-framework */,
+				F4B6AFB029E99F9C00225289 /* secondApp-framework */,
+				F4B6AFC429E9A32F00225289 /* thirdApp-framework */,
 			);
 		};
 /* End PBXProject section */
@@ -227,6 +443,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B6AFDC29E9AD3300225289 /* ThirdAppMedia.xcassets in Resources */,
+				F4B6AFD929E9ACE100225289 /* SecondAppMedia.xcassets in Resources */,
+				F4B6AFD629E9AA6C00225289 /* LeadPlusMedia.xcassets in Resources */,
 				F47F2B9229E94E27009E517A /* Media.xcassets in Resources */,
 				F43E9EE329DEFF3F00FAF140 /* Preview Assets.xcassets in Resources */,
 				F43E9EE029DEFF3F00FAF140 /* Assets.xcassets in Resources */,
@@ -238,6 +457,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47F2B9629E95858009E517A /* Directions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AF9B29E99B4B00225289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFD529E9AA2900225289 /* LeadPlusMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AFAF29E99F9C00225289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFD829E9AAC300225289 /* SecondAppMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AFC329E9A32F00225289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFDB29E9AD0800225289 /* ThirdAppMedia.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +507,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4B6AF9929E99B4B00225289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFAB29E99B7C00225289 /* LeadPlusEntryPointView.swift in Sources */,
+				F4B6AFA129E99B4B00225289 /* leadPlusApp_framework.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AFAD29E99F9C00225289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFBF29E99FC600225289 /* SecondAppEntryPointView.swift in Sources */,
+				F4B6AFB529E99F9C00225289 /* secondApp_framework.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B6AFC129E9A32F00225289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B6AFD329E9A35700225289 /* ThirdAppEntryPointView.swift in Sources */,
+				F4B6AFC929E9A32F00225289 /* thirdApp_framework.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -271,6 +541,21 @@
 			isa = PBXTargetDependency;
 			target = F43E9EFE29DF0C7100FAF140 /* app-framework */;
 			targetProxy = F43E9F0529DF0C7100FAF140 /* PBXContainerItemProxy */;
+		};
+		F4B6AFA429E99B4B00225289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B6AF9C29E99B4B00225289 /* leadPlusApp-framework */;
+			targetProxy = F4B6AFA329E99B4B00225289 /* PBXContainerItemProxy */;
+		};
+		F4B6AFB829E99F9C00225289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B6AFB029E99F9C00225289 /* secondApp-framework */;
+			targetProxy = F4B6AFB729E99F9C00225289 /* PBXContainerItemProxy */;
+		};
+		F4B6AFCC29E9A32F00225289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B6AFC429E9A32F00225289 /* thirdApp-framework */;
+			targetProxy = F4B6AFCB29E9A32F00225289 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -507,6 +792,180 @@
 			};
 			name = Release;
 		};
+		F4B6AFA729E99B4B00225289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachana.leadPlusApp-framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4B6AFA829E99B4B00225289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachana.leadPlusApp-framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B6AFBC29E99F9D00225289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachana.secondApp-framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4B6AFBD29E99F9D00225289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachana.secondApp-framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B6AFD029E9A32F00225289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachana.thirdApp-framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4B6AFD129E9A32F00225289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.rachana.thirdApp-framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -533,6 +992,33 @@
 			buildConfigurations = (
 				F43E9F0A29DF0C7100FAF140 /* Debug */,
 				F43E9F0B29DF0C7100FAF140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B6AFA929E99B4B00225289 /* Build configuration list for PBXNativeTarget "leadPlusApp-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B6AFA729E99B4B00225289 /* Debug */,
+				F4B6AFA829E99B4B00225289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B6AFBB29E99F9D00225289 /* Build configuration list for PBXNativeTarget "secondApp-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B6AFBC29E99F9D00225289 /* Debug */,
+				F4B6AFBD29E99F9D00225289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B6AFCF29E9A32F00225289 /* Build configuration list for PBXNativeTarget "thirdApp-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B6AFD029E9A32F00225289 /* Debug */,
+				F4B6AFD129E9A32F00225289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
