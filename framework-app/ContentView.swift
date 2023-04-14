@@ -9,10 +9,26 @@ import SwiftUI
 import app_framework
 
 struct ContentView: View {
+    @ObservedObject var viewModel = SPPEntryPointViewModel()
+    @ObservedObject var myVM = ContentViewModel()
     var body: some View {
         NavigationView {
             VStack {
                 Text("Hello, world!").padding(.top)
+                Text(viewModel.value)
+                Text(myVM.data)
+                Spacer()
+                let frameworkBundle = Bundle(for: SPPEntryPointViewModel.self)
+                if let myNewValue = frameworkBundle.infoDictionary?["MyNewKey"] as? String {
+                    Text(myNewValue)
+                }
+                Button {
+                    if let jsonURL = frameworkBundle.url(forResource: "Directions", withExtension: "json") {
+                        print(jsonURL)
+                    }
+                } label: {
+                    Text("Click me!")
+                }
                 Spacer()
                 NavigationLink(destination: SPPEntryPointView()) {
                     Image("Sort")
@@ -23,9 +39,11 @@ struct ContentView: View {
                     Image("filter")
                     Text("SPPEntryPoint")
                 }
-                Spacer()
             }
             .navigationTitle("My App")
+        }.onAppear() {
+            viewModel.getDataFromUserDefaults()
+            myVM.getDataFromUserDefaults()
         }
     }
 }
